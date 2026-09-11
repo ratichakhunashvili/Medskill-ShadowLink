@@ -1,0 +1,13 @@
+{
+  "name": "medskill-shadow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "snapshot": "node scripts/build.mjs",
+    "serve": "npx --yes serve public"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}
